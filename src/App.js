@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import LajitteluQuiz from './components/lajitteluQuiz';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Tylypuhkun lajitteluhattu!</h1>
+      <p>Helmikuisen lastenkonsertin jälkeen pidetyillä Puhkujen lastenkutsuilla järjestettiin salaisin menoin ensimmäinen lajittelu (1 op), jossa osallistujat jaettiin viime Puhkusian numerossa esiteltyihin Tylypuhkun tupiin: Röyhkelikkö, Puhkupöh, Kyrwänkynsi ja Huiluinen. Haluaisitko silti tietää, tuletko olemaan myöhempien aikojen pivotuliomestari tai ehkä peräti Poika Joka Kiksaa? Jos lajittelu jäi välistä, ei (paljon) hätää! Kaljaministeriön salainen Alavireisyyksien osasto on jäänyt keskiviikkoiltana ylitöihin ja laatinut testin, jolla jokainen voi testata1), mihin tupaan kuuluu. Ympyröi kustakin kohdasta vastauksesi ja tarkasta tulos testin viimeiseltä sivulta.</p>
+      <LajitteluQuiz className="quiz" />
     </div>
   );
 }
