@@ -18,12 +18,15 @@ html, body {
   padding: 1em;
 }
 
+p {
+  hyphens: auto;
+}
 
 button {
-  padding: .5em;
+  padding: 1em;
   background: var(--highlight);
   border: none;
-  border-radius: 6px;
+  border-radius: 30px;
   margin: .5em;
   font-size: 3vw;
   font-weight: var(--weight-bold);
@@ -36,27 +39,21 @@ button {
   height: 33vh;
   justify-content: center;
   align-content: flex-start;
-  align-items: center;
+  align-items: stretch;
 }
 
 .option {
-  height: 40vw;
-  width: 40vw;
-  border-radius: 100%;
+  flex: 1 1 45%;
   padding: 2em;
-  font-size: 1em;
 }
 
-.option:nth-child(5) {
+
+.otsikko-wrapper {
   width: 100%;
-  border-radius: 6px;
-  padding: 1em;
-  min-height: 3em;
-  height: initial;
+  text-align: center;
 }
-
 .otsikko {
-  width: 100%;
+  width: 60%;
 }
 
 .house-image-wrapper {
