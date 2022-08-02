@@ -37,19 +37,19 @@ const questions = [
     {
         question: 'Huilisteja dissataan, mitä teet?',
         options: {
-            r: "Dissaan huilisteja korostaen oman soittimeni erinomaisuutta",
+            r: "Dissaan huilisteja korostaen oman soittimeni erinomai\u00ADsuutta",
             k: "Dissaan huilisteja kunnes huomaan, että se on oma soittimeni",
             p: "Dissaan, jotta omaa soitinryhmääni ei dissattaisi",
-            h: "Myhäilen hiljaa sektiotovereitteni kanssa ja dissaan lisäksi kaikkia muitakin sektioita"
+            h: 'Myhäilen hiljaa sektio\u00ADtovereitteni kanssa ja dissaan lisäksi kaikkia muitakin sektioita'
         }
     },
     {
         question: 'Mitä pakkaat mukaan Konnevedelle?',
         options: {
-            p: "Makkarapaketin. Perillä huomaat, että niitä on jo varattu mukaan vuoden tarpeiksi",
-            h: "Muut pakkaavat minut, sillä olen teipannut itseni puhkuviinitynnyriin",
+            p: "Makkara\u00ADpaketin. Perillä huomaat, että niitä on jo varattu mukaan vuoden tarpeiksi",
+            h: "Muut pakkaavat minut, sillä olen teipannut itseni puhkuviini\u00ADtynnyriin",
             k: "Shaalin ja varapäreitä",
-            r: "Oman uusimman sävellyksen/sovituksen kouluttajalle arvioitavaksi.",
+            r: "Oman uusimman sävellyksen/ sovituksen kouluttajalle arvioitavaksi.",
             e: "Bilsan koe kirjat",
         }
     },
@@ -59,7 +59,7 @@ const questions = [
             p: "Lähden pilkille. Tuntuu olevan hyvä kalakeli.",
             r: "Soitan fff → fff",
             h: "Perseilen",
-            k: "Kiinnitän erityistä huomiota dynamiikkamerkintöihin"
+            k: "Kiinnitän erityistä huomiota dynamiikka\u00ADmerkintöihin"
         }
     },
     {
@@ -103,7 +103,7 @@ const questions = [
         question: 'Miten vaikutat Puhkuissa?',
         options: {
             r: "Haen puheenjohtajaksi heti puksina",
-            p: "Ryhdyn roudaus- ja nuotistovastaavaksi. Kukaan ei huomaa.",
+            p: "Ryhdyn roudaus- ja nuotisto\u00ADvastaavaksi. Kukaan ei huomaa.",
             h: "Olen teostovastaava. En tee mitään.",
             k: "Kirjoitan säännöllisesti sikaan."
         }
@@ -114,7 +114,7 @@ const questions = [
             h: "Ruth",
             k: "Sohwi",
             p: "Vakkari",
-            r: "Puistokalja, vaikka on paukkupakkanen"
+            r: "Puistokalja, vaikka on paukku\u00ADpakkanen"
         }
     },
     {

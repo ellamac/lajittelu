@@ -2,10 +2,11 @@
   --light: white;
   --dark: black;
   --highlight: yellow;
-  --highlight-secondary: rgb(255, 153, 0);
+  --highlight-secondary: rgb(209, 175, 124);
   --weight-bold: 600;
   color: var(--light);
   font-size: 3vw;
+  hyphens: manual;
 }
 
 html, body {
@@ -13,10 +14,8 @@ html, body {
   padding: 1em;
 }
 
-
-.options-wrapper {
-  display: flex;
-  flex-flow: column nowrap;
+h1, h2 {
+  text-align: center;
 }
 
 button {
@@ -24,7 +23,25 @@ button {
   background: yellow;
   border: none;
   border-radius: 6px;
-  margin: .2em;
+  margin: .5em;
   font-size: 3vw;
   font-weight: var(--weight-bold);
+  min-height: 3em;
+}
+
+.options-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  height: 33vh;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.option {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 100%;
+  padding: 2em;
+  font-size: 1em;
 }
