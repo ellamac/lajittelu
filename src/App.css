@@ -1,9 +1,13 @@
 :root {
   --light: white;
   --dark: black;
-  --highlight: yellow;
+  --highlight: #f6bf00;
   --highlight-secondary: rgb(209, 175, 124);
   --weight-bold: 600;
+  --huiluinen: #004f3b;
+  --royhkelikko: #82221b;
+  --puhkupoh: #f6bf00;
+  --kyrwankynsi: #003863;
   color: var(--light);
   font-size: 3vw;
   hyphens: manual;
@@ -14,13 +18,10 @@ html, body {
   padding: 1em;
 }
 
-h1, h2 {
-  text-align: center;
-}
 
 button {
   padding: .5em;
-  background: yellow;
+  background: var(--highlight);
   border: none;
   border-radius: 6px;
   margin: .5em;
@@ -44,4 +45,66 @@ button {
   border-radius: 100%;
   padding: 2em;
   font-size: 1em;
+}
+
+.otsikko {
+  width: 100%;
+}
+
+.house-image-wrapper {
+  text-align: center;
+}
+
+.house-image {
+  border-radius: 15%;
+  max-width: 75%;
+  height: auto;
+  margin: 1em 0;
+}
+
+.hundredp {
+  width: 100%;
+  display: flex;
+  margin: .3em;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+  
+}
+
+.house-name {
+  flex: 0 0 25%;
+}
+
+.house-score {
+  flex: 0 0 12%;
+}
+
+.resultp {
+  border-radius: 10px;
+}
+
+.royhkelikko .resultp {
+  background-color: var(--royhkelikko);
+}
+
+
+.puhkupoh .resultp {
+  background-color: var(--puhkupoh);
+}
+
+
+.kyrwankynsi .resultp {
+  background-color: var(--kyrwankynsi);
+}
+
+
+.huiluinen .resultp {
+  background-color: var(--huiluinen);
+}
+
+.extra > * {
+  width: 100%;
+  text-align: right;
 }
