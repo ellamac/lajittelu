@@ -47,6 +47,14 @@ button {
   font-size: 1em;
 }
 
+.option:nth-child(5) {
+  width: 100%;
+  border-radius: 6px;
+  padding: 1em;
+  min-height: 3em;
+  height: initial;
+}
+
 .otsikko {
   width: 100%;
 }
