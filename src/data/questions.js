@@ -10,16 +10,16 @@ const questions = [
     }, {
         question: 'Lempipuhkubiisisi?',
         options: {
-            p: "Carpenters Medley",
-            r: "Rocky",
-            k: "Summer",
-            h: "Bulgar"
+            p: "Treasure",
+            r: "Tanssitaivas",
+            k: "Farmiboogie",
+            h: "Abba gold"
         }
     },
     {
         question: 'Mitä teet, kun kapu lyö biisin poikki?',
         options: {
-            k: "Lopetan soittamisen, mutta katoan muihin maailmoihin",
+            k: "Lopetan soittamisen ja kuuntelen kapua",
             r: "Jatkan soittamista, koska kohta tulee oma huippukohtani",
             h: "Jatkan soittamista perseillen",
             p: "Jatkan soittamatta olemista koska en tiennyt alun perinkään missä oltiin menossa"
@@ -28,10 +28,10 @@ const questions = [
     {
         question: 'Mitä teet, kun tauko alkaa?',
         options: {
-            h: "Lähden tupakalle",
+            h: "Lähden Ruutille",
             k: "Jään istumaan paikalleni ja treenaamaan vaikeita paikkoja",
             r: "Yritän ehtiä ensimmäisenä kekseille",
-            p: "Jonotan vessaan ja myöhästyn"
+            p: "Jään pulttiin juoruamaan"
         }
     },
     {
@@ -48,9 +48,9 @@ const questions = [
         options: {
             p: "Makkara\u00ADpaketin. Perillä huomaat, että niitä on jo varattu mukaan vuoden tarpeiksi",
             h: "Muut pakkaavat minut, sillä olen teipannut itseni puhkuviini\u00ADtynnyriin",
-            k: "Shaalin ja varapäreitä",
-            r: "Oman uusimman sävellyksen/ sovituksen kouluttajalle arvioitavaksi.",
-            e: "Bilsan koe kirjat",
+            k: "Varapäreitä, venttiiliöljyä ja sivusoittimen",
+            r: "Sinfiksenkin nuotit harjoiteltavaksi",
+            e: "Sektioröökiä",
         }
     },
     {
@@ -65,18 +65,18 @@ const questions = [
     {
         question: 'Miten suhtaudut uusiin puhkuihin?',
         options: {
-            r: "Haluan heti nähdä, miltä ne näyttävät",
+            r: "Haluan heti kysyä, minkä tutkinnot he ovat suorittaneet",
             h: "Ketkä uudet puhkut?",
             p: "Tervehdin ja kerron puhkujen tavoista",
             k: "Opettelen heidän nimensä, kun ovat olleet bändissä vähintään vuoden.",
-            s: "(Lakkasin pitämästä kirjaa bändin jäsenistä kuudennen vuoden jälkeen)"
+            s: "Lakkasin pitämästä kirjaa bändin jäsenistä kuudennen vuoden jälkeen"
         }
     },
     {
         question: 'On aika ilmoittautua Puhallukseen. Mitä teet?',
         options: {
             h: "Lähden keräämään aroniamarjoja. En ilmoittaudu. Oletan silti pääseväni mukaan.",
-            r: "Alan valmistautua ja puuteroin henkisen isittimeni",
+            r: "Alan valmistautua ja selvitän mitä muut orkesterit aikovat soittaa",
             k: "Ilmoittaudun lomakkeella, sähköpostissa ja treeneissä",
             p: "Lertorkaajos on aika ilmoittautua Puhallukseen, seon vähintä mitä voi."
         }
@@ -86,8 +86,8 @@ const questions = [
         options: {
             r: "Puhallan. Viisari värähtää ;)",
             p: "Tissuttelen pitkin päivää",
-            k: "Kaikkien yllätykseksi vedän kunnon rakettikännit ja puhun saksaa (täydellisesti soitetun keikan jälkeen)",
-            h: "Viideltä aamulla työntelen erilaisia asioita nukkuvien puhkujen neniin"
+            k: "Kaikkien yllätykseksi vedän kunnon rakettikännit ja puhun norjaa (täydellisesti soitetun keikan jälkeen)",
+            h: "Viideltä aamulla olen valtatiellä kuntokävelemässä"
         }
     },
     {
@@ -96,25 +96,25 @@ const questions = [
             r: "Otan paidan pois ja kannan painavinta löytämääni esinettä huolettomasti ympäriinsä.",
             h: "Perseilen sillä aikaa kun tavarat ilmiintyvät ympärilleni",
             k: "Kasaan telineet kaikille",
-            p: "Olen avuksi ja kannan vihreät mapit jokaiselle"
+            p: "Olen avuksi ja etsin kynäpurkin"
         }
     },
     {
         question: 'Miten vaikutat Puhkuissa?',
         options: {
-            r: "Haen puheenjohtajaksi heti puksina",
-            p: "Ryhdyn roudaus- ja nuotisto\u00ADvastaavaksi. Kukaan ei huomaa.",
-            h: "Olen teostovastaava. En tee mitään.",
+            r: "Ilmoittaudun mahdollisimaan moneen vastuutehtävään heti puksina",
+            p: "Liityn markkinointi\u00ADtiimiin. Kukaan ei huomaa.",
+            h: "Olen viininjumalan kisälli",
             k: "Kirjoitan säännöllisesti sikaan."
         }
     },
     {
         question: 'Puhkukaljapaikka?',
         options: {
-            h: "Ruth",
-            k: "Sohwi",
-            p: "Vakkari",
-            r: "Puistokalja, vaikka on paukku\u00ADpakkanen"
+            h: "Puistokalja, vaikka on paukku\u00ADpakkanen",
+            k: "Taide",
+            p: "Vibes",
+            r: "Ruth"
         }
     },
     {
@@ -139,18 +139,18 @@ const questions = [
         question: 'Konnevesi kello 3 yöllä. Missä olet?',
         options: {
             r: "Saunomassa",
-            k: "Oksentamassa",
-            h: "Kusemassa laiturilta holtittomasti",
-            p: "Nukkumassa"
+            k: "Nukkumassa",
+            h: "Konnevesijuoksulla",
+            p: "Nauttimassa karaokesta"
         }
     },
     {
-        question: 'BONUSKYSYMYS! Lempiserafisi?',
+        question: 'BONUSKYSYMYS! Millä otat maitosi?',
         options: {
-            r: "Kyrpae",
-            k: "Absi",
-            p: "Noessoe",
-            h: "Grumpy"
+            r: "Maidolla ja karamellilla",
+            k: "Spritellä ja ilman viinaa",
+            p: "Vissyllä ja omenalla",
+            h: "Mikä maito?"
         }
     },
 ]
