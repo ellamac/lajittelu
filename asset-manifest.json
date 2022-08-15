@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lajittelu/static/css/main.658ff057.css",
-    "main.js": "/lajittelu/static/js/main.814f3871.js",
+    "main.js": "/lajittelu/static/js/main.dbbe1844.js",
     "static/js/787.b53fca08.chunk.js": "/lajittelu/static/js/787.b53fca08.chunk.js",
     "static/media/puhkupoh.jpg": "/lajittelu/static/media/puhkupoh.1c79aa9d734e56392d4c.jpg",
     "static/media/kyrwankynsi.jpg": "/lajittelu/static/media/kyrwankynsi.29db5a007561ea6c4d39.jpg",
@@ -10,11 +10,11 @@
     "static/media/otsikko.png": "/lajittelu/static/media/otsikko.69a56177ae6f76451fc2.png",
     "index.html": "/lajittelu/index.html",
     "main.658ff057.css.map": "/lajittelu/static/css/main.658ff057.css.map",
-    "main.814f3871.js.map": "/lajittelu/static/js/main.814f3871.js.map",
+    "main.dbbe1844.js.map": "/lajittelu/static/js/main.dbbe1844.js.map",
     "787.b53fca08.chunk.js.map": "/lajittelu/static/js/787.b53fca08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.658ff057.css",
-    "static/js/main.814f3871.js"
+    "static/js/main.dbbe1844.js"
   ]
 }
