@@ -31,7 +31,7 @@ const Results = ({ selections }) => {
             { id: 1, name: "Puhkupöh", p: (selections.match(/p/g) || []).length },
             { id: 3, name: "Kyrwänkynsi", p: (selections.match(/k/g) || []).length },
             { id: 4, name: "Huiluinen", p: (selections.match(/h/g) || []).length },
-            { id: 5, name: "Trumpetisti", p: (selections.match(/e/g) || []).length },
+            { id: 5, name: "trumpetisti", p: (selections.match(/e/g) || []).length },
             { id: 6, name: "Tylypuhkun henkilökuntaa", p: (selections.match(/s/g) || []).length },
         ]
         setResults(results);

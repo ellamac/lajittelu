@@ -8,7 +8,7 @@
   --royhkelikko: #82221b;
   --puhkupoh: #f6bf00;
   --kyrwankynsi: #003863;
-  color: var(--light);
+  color: var(--light) !important;
   font-size: 3vw;
   hyphens: manual;
 }
@@ -31,6 +31,8 @@ button {
   font-size: 3vw;
   font-weight: var(--weight-bold);
   min-height: 3em;
+  color: var(--dark) !important;
+
 }
 
 .options-wrapper {
